@@ -69,7 +69,6 @@ class _ChannelListState extends State<ChannelList> {
                 itemBuilder: (context, index) {
                   var teamData =
                       snapshot.data!.docs.first.data() as Map<String, dynamic>;
-
                   return Container(
                     margin: const EdgeInsets.only(
                       top: 5,
